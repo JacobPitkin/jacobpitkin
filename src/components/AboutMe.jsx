@@ -1,6 +1,8 @@
 function AboutMe() {
   return (
-    <p>AboutMe element.</p>
+    <div>
+      <h1>About Me</h1>
+    </div>
   )
 }
 

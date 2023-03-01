@@ -1,7 +1,9 @@
-function Project() {
+function Projects() {
   return (
-    <p>Projects element.</p>
+    <div>
+      <h1>Projects</h1>
+    </div>
   )
 }
 
-export default Project;
+export default Projects;

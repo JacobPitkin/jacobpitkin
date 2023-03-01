@@ -4,9 +4,9 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div>
-      <AboutMe/>
+    <div className="App flex items-center justify-center flex-col text-center pt-20">
       <Profile/>
+      <AboutMe/>
       <Projects/>
     </div>
   )
