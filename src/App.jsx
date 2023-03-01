@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import AboutMe from './components/AboutMe';
+import Profile from './components/Profile';
+import Projects from './components/Projects';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello World
-    </h1>
+    <div>
+      <AboutMe/>
+      <Profile/>
+      <Projects/>
+    </div>
   )
 }
 
-export default App
+export default App;
