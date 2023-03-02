@@ -4,7 +4,7 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App flex items-center justify-center flex-col text-center pt-20">
+    <div className="App flex items-center justify-center flex-col text-center pt-12">
       <Profile/>
       <AboutMe/>
       <Projects/>
