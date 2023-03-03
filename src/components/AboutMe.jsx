@@ -1,6 +1,6 @@
 function AboutMe() {
   return (
-    <div className="max-w-xl text-start pt-20">
+    <div className="text-start pt-20">
       <p>
         Hi! My name is Jacob Pitkin, and I'm a Software Engineer.
       </p>

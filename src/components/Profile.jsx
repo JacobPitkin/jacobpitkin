@@ -1,6 +1,6 @@
 function Profile() {
   return (
-    <div className="max-w-xl rounded overflow-hidden shadow-xl">
+    <div className="rounded overflow-hidden shadow-xl">
       <img className="w-full" src="/profile_pic_2.jpg" alt="Profile picture" />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">Jacob Pitkin</div>
