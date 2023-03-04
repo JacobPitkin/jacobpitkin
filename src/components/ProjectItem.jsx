@@ -1,18 +1,21 @@
-import { Carousel } from "react-responsive-carousel";
+import Carousel from './Carousel';
 
 function ProjectItem({ name, shortDescription, tech, images }) {
   return (
-    <div className="pt-8">
-      <Carousel className="flex-row">
-        {images.map((image) => (
-          <div>
-            <img src={image} />
-            <p className="legend">{image}</p>
+    <div className="mt-8 border border-slate-900 rounded-xl">
+      <Carousel
+        name={name}
+        images={images} 
+      />
+      <div className="text-xl font-bold">{name}</div>
+      <div className="text-start p-4">{shortDescription}</div>
+      <div className="flex flex-row">
+        {tech.map((tech) => (
+          <div className="border border-slate-900 rounded-lg ml-2 mb-2">
+            <p className="p-1">{tech}</p>
           </div>
         ))}
-      </Carousel>
-      <div>{name}</div>
-      <div className="text-start">{shortDescription}</div>
+      </div>
     </div>
   )
 }

@@ -4,8 +4,8 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App flex items-center justify-center flex-col text-center pt-12">
-      <div className="max-w-xl">
+    <div className="App flex items-center justify-center flex-col text-center m-8">
+      <div className="max-w-3xl">
         <Profile/>
         <AboutMe/>
         <Projects/>

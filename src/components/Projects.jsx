@@ -4,7 +4,7 @@ import projects from '../data/projects';
 
 function Projects() {
   return (
-    <div className="pt-20 max-w-lg">
+    <div className="pt-20">
       <h1 className="font-bold text-2xl underline">Projects</h1>
       {projects.map((project) => (
         <ProjectItem
