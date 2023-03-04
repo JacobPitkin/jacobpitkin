@@ -1,4 +1,6 @@
 function Carousel({ name, images }) {
+  // TODO: Can I put a counter here and use it in the map function when creating images?
+  
   return (
     <div id={`${name}-carousel`} className="relative shadow-xl mb-4" data-carousel="static">
       <div className="relative h-45 overflow-hidden rounded-lg md:h-96">

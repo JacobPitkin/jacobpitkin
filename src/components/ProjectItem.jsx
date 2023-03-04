@@ -2,7 +2,7 @@ import Carousel from './Carousel';
 
 function ProjectItem({ name, shortDescription, tech, images }) {
   return (
-    <div className="mt-8 border border-slate-900 rounded-xl">
+    <div className="mt-8 border border-slate-900 rounded-xl shadow-xl">
       <Carousel
         name={name}
         images={images} 
@@ -12,7 +12,7 @@ function ProjectItem({ name, shortDescription, tech, images }) {
       <div className="flex flex-row">
         {tech.map((tech) => (
           <div className="border border-slate-900 rounded-lg ml-2 mb-2">
-            <p className="p-1">{tech}</p>
+            <div className="p-1">{tech}</div>
           </div>
         ))}
       </div>

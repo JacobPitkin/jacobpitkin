@@ -6,6 +6,8 @@ export default [
     tech: [
       'Java',
       'JavaScript',
+      'Bootstrap',
+      'CodeMirror',
       'Tomcat',
       'SQL',
       'FOP',
@@ -30,6 +32,7 @@ export default [
     tech: [
       'Java',
       'JavaScript',
+      'Bootstrap',
       'Tomcat',
       'SQL',
       'FOP',
@@ -60,6 +63,7 @@ export default [
     tech: [
       'Java',
       'JavaScript',
+      'Bootstrap',
       'Tomcat',
       'SQL'
     ],
