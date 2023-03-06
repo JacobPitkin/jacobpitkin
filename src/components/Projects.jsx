@@ -6,6 +6,7 @@ function Projects() {
   return (
     <div className="pt-20">
       <h1 className="font-bold text-2xl underline">Projects</h1>
+      <p className="text-sm">(Work In Progres...)</p>
       {projects.map((project) => (
         <ProjectItem
           name={project.name}
