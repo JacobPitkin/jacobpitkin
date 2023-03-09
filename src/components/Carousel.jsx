@@ -5,8 +5,8 @@ function Carousel({ name, images }) {
     <div id={`${name}-carousel`} className="relative shadow-xl mb-4" data-carousel="static">
       <div className="relative h-45 overflow-hidden rounded-lg md:h-96">
         {images.map((image) => (
-          <div className="duration-700 ease-in-out" data-carousel-item>
-            <img src={image} className="object-contain" alt={`${name} image`} />
+          <div className="flex flex-row items-center justify-center duration-700 ease-in-out p-4" data-carousel-item>
+            <img src={image} className="object-fill h-full" alt={`${name} image`} />
           </div>  
         ))}
       </div>

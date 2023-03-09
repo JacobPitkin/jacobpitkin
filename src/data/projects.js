@@ -101,7 +101,9 @@ export default [
     tech: [
       'Node.js'
     ],
-    images: []
+    images: [
+      '/discord-mark-blue.png'
+    ]
   },
   {
     name: 'This Website!',
@@ -112,6 +114,8 @@ export default [
       'Tailwind CSS',
       'Vite.js'
     ],
-    images: []
+    images: [
+      '/jacobpitkin-com.png'
+    ]
   }
 ]
