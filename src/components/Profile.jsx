@@ -4,7 +4,7 @@ function Profile() {
       <img className="w-full" src="/pfp.jpg" alt="Profile picture" />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">Jacob Pitkin</div>
-        <p className="text-gray-700 text-base">
+        <p className="text-gray-650 text-base">
           Software Engineer & Web Developer
         </p>
         <div className="flex flex-row items-center justify-end -mt-12">
@@ -16,6 +16,7 @@ function Profile() {
           <div>
             <a href="https://github.com/JacobPitkin" target="_blank" rel="noreferrer">
               <img className="w-12" src="/github-mark.png" alt="GitHub logo" />
+              <p>Just some text to play with PR's.</p>
             </a>
           </div>
         </div>
