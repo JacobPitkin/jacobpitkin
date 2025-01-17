@@ -7,11 +7,12 @@ function App() {
     <div className="App flex items-center justify-center flex-col text-center m-8">
       <div className="max-w-3xl">
         <Profile/>
-        <AboutMe/>
         <Projects/>
       </div>
     </div>
   )
 }
+
+// testy
 
 export default App;
